@@ -10,3 +10,9 @@ Here a run_analysis.R script is presented to perform the following data cleanup 
 
 The original dataset can be found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 with the background information of original dataset at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+This repository includes the following:
+
+run_analysis.R: An R script that collects and prepares a tidy data set to be used for later analysis,
+CodeBook.md: A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data,
+README.md: Explains how all of the scripts work and how they are connected.
