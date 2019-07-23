@@ -76,6 +76,6 @@ all_group <-group_by(mean_std_activity_subject_combine, activity_label,subject)
 #Create an independent dataset which summarize the average of each variable for each activity and each suject
 all_group <-summarize_each(all_group, funs(mean))
 
-#Save the tidy dataset as CSV file
-write.csv(all_group,"tidy data_UCI HAR.csv")
+#Save the tidy dataset as TXT file
+write.table(all_group, "tidy data_UCI HAR.txt",row.name=FALSE)
 
